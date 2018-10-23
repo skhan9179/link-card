@@ -8,28 +8,36 @@ html {
 }
 
 a {
+  display: block;
+
   text-decoration: none;
 }
 
 h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
-dl {
+ul {
+  display: inline-block;
+  padding: 0;
+
+  list-style-type: none;
   font-size: .875rem;
 }
 
 span {
-  1.125rem;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 /*
-- *Line heights*: `1.5`
 - *Paddings*: `1rem`, `.4em .75em .5em`
 - *Margins*: `0 0 1rem`
 - *Colours*: `#785439`, `#cabdb2`, `#512200`, `#9a816d`, `#dcd4cd`, `#f0eee8`
 - *Border widths*: `3px`, `2px`
 - *Border radii*: `3px`, `8px`
-- *Expected classes*: `.link-card`
 */
