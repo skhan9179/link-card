@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 1rem/1.5 Georgia,serif;
+  font: normal 1rem/1.5 Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -13,6 +13,7 @@ body {
 
 .link-card {
   display: block;
+  padding: 1rem;
   background-color: #dcd4cd;
 
   border-color: #9a816d;
@@ -24,35 +25,44 @@ body {
   color: #512200;
 }
 
-h2 {
+.link-card h2 {
   margin: 0;
 
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-ul {
-  display: inline-block;
+.link-card p {
+  margin: 0;
+}
+
+.link-card dl {
+  display: block;
   padding: 0;
+  margin: 0;
+
+  border-top: 2px solid #9a816d;
 
   list-style-type: none;
   font-size: .875rem;
 }
 
-span {
+.link-card dt, .link-card dd {
+  display: inline-block;
+  margin: 0;
+  width: 49%;
+}
+
+.btn {
   background-color: #785439;
 
   border-radius: 8px;
 
   color: white;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
-}
-
-hr {
-  color: #9a816d;
 }
 
 /*
