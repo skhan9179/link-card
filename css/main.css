@@ -7,13 +7,26 @@ html {
   box-sizing: inherit;
 }
 
-a {
+body {
+  margin: 0;
+}
+
+.link-card {
   display: block;
+  background-color: #dcd4cd;
+
+  border-color: #9a816d;
+  border-width: 3px;
+  border-radius: 3px;
+  border-style: solid;
 
   text-decoration: none;
+  color: #512200;
 }
 
 h2 {
+  margin: 0;
+
   font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
@@ -28,10 +41,18 @@ ul {
 }
 
 span {
+  background-color: #785439;
+
+  border-radius: 8px;
+
   color: white;
   font-family: 'Dosis', sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
+}
+
+hr {
+  color: #9a816d;
 }
 
 /*
